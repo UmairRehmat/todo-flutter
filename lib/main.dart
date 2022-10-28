@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:talpodstodo/screens/main_view_screen.dart';
 import 'package:talpodstodo/utils/constants.dart';
+import 'models/todo_model.dart';
 
+List<TodoModel> tasksList = [];
 void main() {
   runApp(const MyApp());
 }
