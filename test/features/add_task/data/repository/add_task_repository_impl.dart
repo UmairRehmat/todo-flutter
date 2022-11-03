@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:talpodstodo/features/add_task/data/data_source/add_task_local_data_source.dart';
-import 'package:talpodstodo/features/add_task/data/models/task_model.dart';
-import 'package:talpodstodo/features/add_task/data/repository/add_task_repository.dart';
-import 'package:talpodstodo/features/add_task/domain/repository/add_task_repository.dart';
+import 'package:testtodo/features/add_task/data/data_source/add_task_local_data_source.dart';
+import 'package:testtodo/features/add_task/data/models/task_model.dart';
+import 'package:testtodo/features/add_task/data/repository/add_task_repository.dart';
+import 'package:testtodo/features/add_task/domain/repository/add_task_repository.dart';
 
 class MockAddTaskLocalDataSource extends Mock
     implements AddTasksLocalDataSource {}

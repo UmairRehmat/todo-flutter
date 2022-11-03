@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:talpodstodo/features/add_task/data/models/task_model.dart';
-import 'package:talpodstodo/features/add_task/domain/entities/task.dart';
+import 'package:testtodo/features/add_task/data/models/task_model.dart';
+import 'package:testtodo/features/add_task/domain/entities/task.dart';
 
 String ficture(String fileName) =>
     File('test/fixture/$fileName').readAsStringSync();

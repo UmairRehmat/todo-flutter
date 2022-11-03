@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:talpodstodo/dependency_container.dart';
-import 'package:talpodstodo/features/add_task/presentation/pages/task_page.dart';
+import 'package:testtodo/dependency_container.dart';
+import 'package:testtodo/features/add_task/presentation/pages/task_page.dart';
 
 var pressed = false;
 

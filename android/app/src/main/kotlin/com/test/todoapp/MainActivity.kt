@@ -1,4 +1,4 @@
-package com.talpods.talpodstodo
+package com.test.todoapp
 
 import io.flutter.embedding.android.FlutterActivity
 

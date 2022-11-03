@@ -1,5 +1,5 @@
-name: talpodstodo
-description: talPods todo application test
+name: testtodo
+description: test todo application test
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -44,6 +44,8 @@ dependencies:
 
 dev_dependencies:
   mocktail: ^0.3.0
+  change_app_package_name: ^1.1.0
+
 
   flutter_test:
     sdk: flutter

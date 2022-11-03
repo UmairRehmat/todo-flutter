@@ -1,11 +1,12 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:talpodstodo/core/error/failure.dart';
-import 'package:talpodstodo/core/usecases/use_case.dart';
-import 'package:talpodstodo/features/add_task/domain/entities/task.dart';
-import 'package:talpodstodo/features/add_task/domain/repository/show_task_repository.dart';
-import 'package:talpodstodo/features/add_task/domain/use_case/show_task_use_case.dart';
+import 'package:testtodo/core/error/failure.dart';
+import 'package:testtodo/core/usecases/use_case.dart';
+import 'package:testtodo/features/add_task/domain/entities/task.dart';
+
+import 'package:testtodo/features/add_task/domain/repository/show_task_repository.dart';
+import 'package:testtodo/features/add_task/domain/use_case/show_task_use_case.dart';
 
 class MockHomeRepository extends Mock implements ShowTaskRepository {}
 

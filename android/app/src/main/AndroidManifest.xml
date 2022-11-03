@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.talpods.talpodstodo">
+    package="com.test.todoapp">
    <application
-        android:label="talpodstodo"
+        android:label="Todo app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
