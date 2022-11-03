@@ -1,6 +1,6 @@
-# talpodstodo
+# TestTodo
 
-talPods todo application test
+TestTodo todo application test
 
 ## Getting Started
 
